@@ -4,6 +4,8 @@
 	<title>AdMission - Advertising Matters</title>
 	<link rel="stylesheet" type="text/css" href="/stylesheets/reset.css">
 	<link rel="stylesheet" type="text/css" href="/stylesheets/sample.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div id="mainWrapper">
@@ -19,11 +21,11 @@
 					<div class="menuOption menu_first"> <span class="menu_text"> <img class="menuIcon" src="/images/signup.png" width='30' height='30'/>Sign Up </span></div>
 					<div class="menuOption"> <span class="menu_text"> <img class="menuIcon" src="/images/signin.png" width='30' height='30'/>Log In </span></div>
 					<div class="menuOption"> <span class="menu_text"> <img class="menuIcon" src="/images/trending.png" width='30' height='30'/>Trending </span></div>
-					<div class="menuOption"> <span class="menu_text"> <img class="menuIcon" src="/images/about.png" width='30' height='30'/> About </span></div>
+					<div class="menuOption"> <span class="menu_text"> <a href ="/about"><img class="menuIcon" src="/images/about.png" width='30' height='30'/> About </span></div>
 				</div>
 			</div>
 		</div>
-		<div ui-view></div>
+		{{> part}}
 		
 	</div>
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -32,8 +34,8 @@
 	<script type="text/javascript" src="/javascripts/lodash.js"></script>
 	<script type="text/javascript" src="/javascripts/underscore.js"></script>
 	<script type="text/javascript" src="/angular/modules.js"></script>
-	<script type="text/javascript" src="/angular/states.js"></script>
-	<script type="text/javascript" src="/javascripts/angular-ui-router.js"></script>
+	<script type="text/javascript" src="/javascripts/ui-bootstrap.js"></script>
+
 
 	
 </body>

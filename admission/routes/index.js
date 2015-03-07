@@ -6,9 +6,18 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Admission' ,   
       partials:
       {
-        part: 'error',
+        part: 'home.hjs',
       }
     });
 });
 
+
+router.get('/about', function(req, res, next) {
+  res.render('index', { title: 'Admission' ,   
+      partials:
+      {
+        part: 'home.hjs',
+      }
+    });
+});
 module.exports = router;
