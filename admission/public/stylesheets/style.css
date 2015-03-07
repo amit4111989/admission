@@ -24,11 +24,11 @@
 }
 .footer {
   position: relative;
-  margin-top: -50px; /* negative value of footer height */
+  margin-top: 300px; /* negative value of footer height */
   height: 50px;
   clear:both;
   padding-top:40px;
-  background-color: #61CCD0;
+  background-color: #333;
 }
 
 #feedWrapper {

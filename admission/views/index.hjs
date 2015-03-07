@@ -14,7 +14,7 @@
 		<div id="headerWrapper">
 			<div id="signupWrapper">
 				<div id="signupBox">
-					<img src="/images/logo.png" width='250'>
+					<img class="hvr-float-shadow" src="/images/Anotherlogo.png" width='250'>
 					<div class="arrow-left"></div> 
 				</div>
 			</div>
