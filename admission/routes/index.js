@@ -1,18 +1,33 @@
-var express = require('express');
-var router = express.Router();
+ var express = require('express');
+ var router = express.Router();
 var passport = require('passport');
-
-/* GET home page. */
-router.get('/', function(req, res, next) {
+ 
+ /* GET home page. */
+ router.get('/', function(req, res, next) {
+  res.render('index', { title: 'Admission' ,   
+      partials:
+      {
+        part: 'home.hjs',
+      }
+    });
   res.render('index.hjs', { title: 'Admission' , partials: { part: 'error',} });
+ });
+ 
+// SIGN IN route
+ 
+router.get('/about', function(req, res, next) {
+  res.render('index', { title: 'Admission' ,   
+      partials:
+      {
+        part: 'about',
+      }
+    });
 });
 
-// SIGN IN route
-
-router.get('/login', function(req, res) {
+router.get('/login', function(req, res, next) {
 
         // render the page and pass in any flash data if it exists
-        res.render('login',{'layout' :'index' ,  message: req.flash('loginMessage') }); 
+        res.render('login',{'layout' :'index' , message: req.flash('loginMessage') }); 
 });
 
 router.post('/login', passport.authenticate('local-login', {
@@ -38,12 +53,12 @@ router.post('/signup', passport.authenticate('local-signup', {
 router.get('/logout', function(req, res) {
         req.logout();
         res.redirect('/');
-});
+ });
 
 // Profile page
 
 router.get('/profile',function(req,res) {
-	res.render('profile', {'layout' :'index' });
+   res.render('profile', {'layout' :'index' });
 });
 
 function isLoggedIn(req, res, next) {
@@ -56,5 +71,4 @@ function isLoggedIn(req, res, next) {
     res.redirect('/');
 }
 
-module.exports = router;
-
+ module.exports = router;
