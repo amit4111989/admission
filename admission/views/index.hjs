@@ -26,7 +26,6 @@
 		<div id="filler"></div>
 		<div id="contentWrapper">
 			<div id="feedWrapper">
-				{{> part}}
 				<div class="feed"></div>
 				<div class="feed"></div>
 				<div class="feed"></div>
