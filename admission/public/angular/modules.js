@@ -2,7 +2,7 @@
     'use strict';
 
     angular.module('ng.admission', [
-            'ui.router',
+            'ui.bootstrap',
         ])
         .run(['$rootScope',
             function moduleRun($rootScope) {

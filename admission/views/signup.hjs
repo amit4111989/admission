@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <form action="/login" method="post">
         <div class="form-group">
             <label>Email</label>
@@ -11,3 +12,42 @@
         <button type="submit" class="btn btn-warning btn-lg">Login</button>
 </form>
 
+=======
+  <fieldset>
+  
+  
+
+<div class="modal-header">
+<h1>Sign Up</h1></div> 
+
+<!--Username/Email-->
+<div class="form-group">
+      <label for="usr">Username/Email:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    
+<!--Password-->
+<div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+    
+<!--Confirm Password-->
+  <div class="form-group">
+      <label for="pwd">Confirm Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+
+<!-- Button (Double) -->
+<div class="control-group">
+  <label class="control-label" for="button1id">Double Button</label>
+  <div class="controls">
+    <button id="button1id" name="button1id" class="btn btn-success">Sign In</button>
+    <button id="button2id" name="button2id" class="btn btn-danger">Cancel</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div>
+>>>>>>> 12fac0c336f0cf6f78bc69defe048e22e1521cc2

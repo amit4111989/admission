@@ -1,1 +1,46 @@
-body{padding:50px;font:14px "Lucida Grande",Helvetica,Arial,sans-serif}a{color:#00B7FF}
+/*Blake's CSS------------------------------------- */
+
+.routerWrapper {
+    padding-top: 200px;
+    text-align: center;
+}
+.rocket {
+    font-size: 16em !important;
+}
+
+.section-heading hr {
+    width: 400px;
+    border-top: 1px solid #333;
+}
+
+.img-left {
+    left: -200px;
+    position: absolute;
+    font-size: 40em !important;
+    color: #e8e8e8;
+}
+.padthatshit {
+    padding-top: 20px;
+}
+.footer {
+  position: relative;
+  margin-top: 300px; /* negative value of footer height */
+  height: 50px;
+  clear:both;
+  padding-top:40px;
+  background-color: #333;
+}
+
+#feedWrapper {
+    padding-bottom: 40px;
+}
+
+.menu_text a {
+    color: #333 !important;
+}
+
+.menu_text a:focus a:hover{
+    color: #14AEBA;
+    text-decoration: none !important;
+}
+/* End of Blake's CSS-----------------------------*/

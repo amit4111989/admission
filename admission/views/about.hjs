@@ -1,0 +1,29 @@
+<div class="routerWrapper">
+    <!-- ABOUT -->
+    <div id="about" class="section about">
+        <div class="container">
+            <div class="section-heading">
+                <i class="fa  fa fa-rocket fa-5x rocket"></i>
+                <h1>ABOUT US</h1>
+                <h2>Advertising For <span style="color: #F9AC4D">Tomorrow</span> - Here <span style="color: #61CCD0">Today</span></h2>
+                <hr />
+                <div class="section-content">
+                    <div class="row">
+                        <div class="col-lg-6 col-lg-offset-3">
+                            <h3>Advertising For Tomorrow - Here Today</h3>
+                            <p>Cupcake ipsum dolor sit amet toffee lollipop carrot cake halvah. I love biscuit lollipop macaroon I love marshmallow sesame snaps. Pudding chocolate cake cake sweet gummi bears I love ice cream. Gingerbread lemon drops dessert cake. Sesame snaps topping chocolate bar pudding wafer. Gingerbread chocolate bar marshmallow sugar plum gummies. I love tiramisu I love. Danish donut pudding candy ice cream biscuit gummies dragée sweet. Bear claw soufflé chocolate cake pie ice cream chupa chups. I love sesame snaps sesame snaps danish cake halvah I love. Jujubes jelly dragée soufflé pastry.</p>
+                        </div>
+                    </div>
+
+                    <div class="row padthatshit">
+                        <i class="fa fa-cogs rocket img-left"></i>
+                    <div class="col-lg-9 col-lg-offset-3">
+                    <h2>How It Works</h2>
+                    <p>I love biscuit lollipop macaroon I love marshmallow sesame snaps. Pudding chocolate cake cake sweet gummi bears I love ice cream. Gingerbread lemon drops dessert cake. Sesame snaps topping chocolate bar pudding wafer. Gingerbread chocolate bar marshmallow sugar plum gummies.I love biscuit lollipop macaroon I love marshmallow sesame snaps. Pudding chocolate cake cake sweet gummi bears I love ice cream. Gingerbread lemon drops dessert cake. Sesame snaps topping chocolate bar pudding wafer. Gingerbread chocolate bar marshmallow sugar plum gummies.I love biscuit lollipop macaroon I love marshmallow sesame snaps. Pudding chocolate cake cake sweet gummi bears I love ice cream. Gingerbread lemon drops dessert cake. Sesame snaps topping chocolate bar pudding wafer. Gingerbread chocolate bar marshmallow sugar plum gummies.I love biscuit lollipop macaroon I love marshmallow sesame snaps. Pudding chocolate cake cake sweet gummi bears I love ice cream. Gingerbread lemon drops dessert cake. Sesame snaps topping chocolate bar pudding wafer. Gingerbread chocolate bar marshmallow sugar plum gummies.</p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+

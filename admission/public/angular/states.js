@@ -6,8 +6,7 @@
             function($stateProvider, $urlRouterProvider) {
 
                 $urlRouterProvider.otherwise('/');
-                $urlRouterProvider.when('/',
-                    '/home');
+
 
                 var states = [];
 
@@ -16,15 +15,16 @@
                     name: 'root',
                     url: '/',
                     abstract: 'true',
-                    templateUrl: 'root.html',
+                    templateUrl: 'root.hjs',
                 });
+
 
                 /* ############################## PARTIALS ############################# */
 
                 states.push({
                     name: 'root.home',
                     url: 'home',
-                    templateUrl: 'home.html',
+                    templateUrl: '/views/home.hjs',
                     controller: 'homeCtrl',
                 });
 
