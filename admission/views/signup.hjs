@@ -1,32 +1,53 @@
-  .modal-body {
-    max-height: 300px;
-    max-width: 400px;
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-<div class="modal-body">
-}
-<h1>Sign Up</h1> 
+<<<<<<< HEAD
+<form action="/login" method="post">
+        <div class="form-group">
+            <label>Email</label>
+            <input type="text" class="form-control" name="email">
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" name="password">
+        </div>
+
+        <button type="submit" class="btn btn-warning btn-lg">Login</button>
+</form>
+
+=======
+  <fieldset>
+  
+  
+
+<div class="modal-header">
+<h1>Sign Up</h1></div> 
+
+<!--Username/Email-->
 <div class="form-group">
       <label for="usr">Username/Email:</label>
       <input type="text" class="form-control" id="usr">
     </div>
+    
+<!--Password-->
 <div class="form-group">
       <label for="pwd">Password:</label>
       <input type="password" class="form-control" id="pwd">
     </div>
-<div>
+    
+<!--Confirm Password-->
   <div class="form-group">
       <label for="pwd">Confirm Password:</label>
       <input type="password" class="form-control" id="pwd">
     </div>
-<div>
-<button class = btn btn-primary> Submit  <span class="glyphicon glyphicon-chevron-right" style="vertical-align:middle">
-  </button>
-  </div>
-   </div>
-    </div>
+
+<!-- Button (Double) -->
+<div class="control-group">
+  <label class="control-label" for="button1id">Double Button</label>
+  <div class="controls">
+    <button id="button1id" name="button1id" class="btn btn-success">Sign In</button>
+    <button id="button2id" name="button2id" class="btn btn-danger">Cancel</button>
   </div>
 </div>
+
+</fieldset>
+</form>
+</div>
+>>>>>>> 12fac0c336f0cf6f78bc69defe048e22e1521cc2

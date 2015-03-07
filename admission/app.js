@@ -6,11 +6,20 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var passport = require('passport')
   , LocalStrategy = require('passport-local').Strategy;
+var mongoose = require('mongoose');
+var flash = require('connect-flash');
+var configDB = require('./config/database.js');
+var session      = require('express-session');
+
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
 var app = express();
+
+// database connection
+mongoose.connect(configDB.url);
+app.use(flash());
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -21,9 +30,11 @@ app.set('view engine', 'hjs');
 app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
+app.use(session({ secret: 'ilovescotchscotchyscotchscotch' }));
 app.use(cookieParser());
 app.use(passport.initialize());
 app.use(passport.session());
+require('./config/passport')(passport); 
 app.use(require('less-middleware')(path.join(__dirname, 'public')));
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -62,20 +73,6 @@ app.use(function(err, req, res, next) {
   });
 });
 
-passport.use(new LocalStrategy(
-  function(username, password, done) {
-    User.findOne({ username: username }, function (err, user) {
-      if (err) { return done(err); }
-      if (!user) {
-        return done(null, false, { message: 'Incorrect username.' });
-      }
-      if (!user.validPassword(password)) {
-        return done(null, false, { message: 'Incorrect password.' });
-      }
-      return done(null, user);
-    });
-  }
-));
 
 
 module.exports = app;
