@@ -25,7 +25,7 @@
 					<!-- Log In Link-->
 					<div class="menuOption hvr-grow"> <span class="menu_text"> <a href ="/login"><img class="menuIcon" ng-click="open()" src="/images/signin.png" width='30' height='30'/>Log In </span></div></a>
 					<!-- Trending Link-->
-					<div class="menuOption hvr-grow"> <span class="menu_text"> <a href ="/trending"><img class="menuIcon" src="/images/trending.png" width='30' height='30'/>Trending </span></div></a>
+					<div class="menuOption hvr-grow"> <span class="menu_text"> <a href ="/trending"><i class="fa fa-star"></i>Trending </span></div></a>
 					<!-- About Link--> 
 					<div class="menuOption hvr-grow"> <span class="menu_text"> <a href ="/about"><img class="menuIcon" src="/images/about.png" width='30' height='30'/>About </span></div></a>
 				</div>
