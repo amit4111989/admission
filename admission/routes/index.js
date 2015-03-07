@@ -16,7 +16,7 @@ router.get('/about', function(req, res, next) {
   res.render('index', { title: 'Admission' ,   
       partials:
       {
-        part: 'home.hjs',
+        part: 'about.hjs',
       }
     });
 });

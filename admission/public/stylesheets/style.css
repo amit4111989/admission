@@ -1,1 +1,22 @@
-body{padding:50px;font:14px "Lucida Grande",Helvetica,Arial,sans-serif}a{color:#00B7FF}
+.routerWrapper {
+    padding-top: 200px;
+    text-align: center;
+}
+.rocket {
+    font-size: 16em !important;
+}
+
+.section-heading hr {
+    width: 400px;
+    border-top: 1px solid #333;
+}
+
+.img-left {
+    left: -200px;
+    position: absolute;
+    font-size: 40em !important;
+    color: #e8e8e8;
+}
+.padthatshit {
+    padding-top: 20px;
+}
