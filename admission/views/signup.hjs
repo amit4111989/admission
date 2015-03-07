@@ -25,6 +25,7 @@
 <div>
 <button class = btn btn-primary> Submit  <span class="glyphicon glyphicon-chevron-right" style="vertical-align:middle">
   </button>
+   <button id="button2id" name="button2id" class="btn btn-danger">Cancel</button>
   </div>
    </div>
     </div>
