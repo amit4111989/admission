@@ -1,0 +1,106 @@
+<fieldset>
+
+<!--Automobiles-->
+<div class = "row">
+<div class="col-md-2" width:100px;
+height:100px;>
+<h1>Automobiles</h1>
+<label class="btn btn-primary"> <input type="checkbox" autocomplete="off"><span class="glyphicon glyphicon-ok"></span>
+</label>
+<i class="fa fa-car"></i>
+</div>
+
+<!--Financial Services-->
+<div class="col-md-2" width:100px;
+height:100px;>
+<h1>Financial Services</h1>
+<label class="btn btn-primary"> <input type="checkbox" autocomplete="off"><span class="glyphicon glyphicon-ok"></span>
+</label>
+<i class="fa fa-usd"></i>
+</div>
+
+<!--Films-->
+<div class="col-md-2" width:100px;
+height:100px;>
+<h1>Films</h1>
+<label class="btn btn-primary"> <input type="checkbox" autocomplete="off"><span class="glyphicon glyphicon-ok"></span>
+</label>
+<i class="fa fa-film"></i>
+</div>
+
+<!--Video Games-->
+<div class = "row">
+<div class="col-md-2" width:100px;
+height:100px;>
+<h1>Video Games</h1>
+<label class="btn btn-primary"> <input type="checkbox" autocomplete="off"><span class="glyphicon glyphicon-ok"></span>
+</label>
+<i class="fa fa-steam-square"></i>
+</div>
+
+<!--Electronics-->
+<div class="col-md-2" width:100px;
+height:100px;>
+<h1>Electronics</h1>
+<label class="btn btn-primary"> <input type="checkbox" autocomplete="off"><span class="glyphicon glyphicon-ok"></span>
+</label>
+<i class="fa fa-laptop"></i>
+</div>
+
+<!--Music-->
+<div class="col-md-2" width:100px;
+height:100px;>
+<h1>Music</h1>
+<label class="btn btn-primary"> <input type="checkbox" autocomplete="off"><span class="glyphicon glyphicon-ok"></span>
+</label>
+<i class="fa fa-headphones"></i>
+</div>
+
+<!--Sports-->
+<div class="col-md-2" width:100px;
+height:100px;>
+<h1>Sports</h1>
+<label class="btn btn-primary"> <input type="checkbox" autocomplete="off"><span class="glyphicon glyphicon-ok"></span>
+</label>
+<i class="fa fa-futbol"></i>
+</div>
+
+<!--Retail-->
+<div class="col-md-2" width:100px;
+height:100px;>
+<h1>Retail </h1>
+<label class="btn btn-primary"> <input type="checkbox" autocomplete="off"><span class="glyphicon glyphicon-ok"></span>
+</label>
+<i class="fa fa-shopping-cart"></i>
+</div>
+
+<!--Local Services-->
+<div class="col-md-2" width:100px;
+height:100px;>
+<h1>Local Services </h1>
+<label class="btn btn-primary"> <input type="checkbox" autocomplete="off"><span class="glyphicon glyphicon-ok"></span>
+</label>
+<i class="fa fa-location-arrow"></i>
+</div>
+
+<!--Dining-->
+<div class="col-md-2" width:100px;
+height:100px;>
+<h1>Dining </h1>
+<label class="btn btn-primary"> <input type="checkbox" autocomplete="off"><span class="glyphicon glyphicon-ok"></span>
+</label>
+<i class="fa fa-shopping-cart"></i>
+</div>
+
+
+<!--Other-->
+<div class="col-md-2" width:100px;
+height:100px;>
+<h1>Other</h1>
+<label class="btn btn-primary"> <input type="checkbox" autocomplete="off"><span class="glyphicon glyphicon-ok"></span>
+</label>
+<i class="fa fa-random"></i>
+</div>
+
+
+</div>
