@@ -1,0 +1,32 @@
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').focus()
+  })
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+<div class="modal-body">
+<h1>Sign Up</h1> 
+<div class="form-group">
+      <label for="usr">Username/Email:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+<div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+<div>
+  <div class="form-group">
+      <label for="pwd">Confirm Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+<div>
+<button class = btn btn-primary> Submit  <span class="glyphicon glyphicon-chevron-right" style="vertical-align:middle">
+  </button>
+  </div>
+   </div>
+    </div>
+  </div>
+</div>
