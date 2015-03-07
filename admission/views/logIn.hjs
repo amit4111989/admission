@@ -1,0 +1,37 @@
+<form class="form-horizontal">
+<fieldset>
+
+<!-- Form Name -->
+<div class="modal-header">Sign In</div>
+
+<!-- Text input-->
+<div class="modal-body">
+<div class="control-group">
+  <label class="control-label" for="textinput">Text Input</label>
+  <div class="controls">
+    <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="input-xlarge">
+
+  </div>
+</div>
+
+<!-- Password input-->
+<div class="control-group">
+  <label class="control-label" for="passwordinput">Password Input</label>
+  <div class="controls">
+    <input id="passwordinput" name="passwordinput" type="password" placeholder="placeholder" class="input-xlarge">
+
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="control-group">
+  <label class="control-label" for="button1id">Double Button</label>
+  <div class="controls">
+    <button id="button1id" name="button1id" class="btn btn-success">Sign In</button>
+    <button id="button2id" name="button2id" class="btn btn-danger">Cancel</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div>

@@ -1,3 +1,5 @@
+/*Blake's CSS------------------------------------- */
+
 .routerWrapper {
     padding-top: 200px;
     text-align: center;
@@ -20,3 +22,25 @@
 .padthatshit {
     padding-top: 20px;
 }
+.footer {
+  position: relative;
+  margin-top: -50px; /* negative value of footer height */
+  height: 50px;
+  clear:both;
+  padding-top:40px;
+  background-color: #61CCD0;
+}
+
+#feedWrapper {
+    padding-bottom: 40px;
+}
+
+.menu_text a {
+    color: #333 !important;
+}
+
+.menu_text a:focus a:hover{
+    color: #14AEBA;
+    text-decoration: none !important;
+}
+/* End of Blake's CSS-----------------------------*/

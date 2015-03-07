@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="/stylesheets/sample.css">
 	<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
 	<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/hover.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -19,16 +20,23 @@
 			</div>
 			<div id="mainHeaderWrapper">
 				<div id="menuHeader">
-					<div class="menuOption menu_first"> <span class="menu_text"> <img class="menuIcon" src="/images/signup.png" width='30' height='30'/>Sign Up </span></div>
-					<div class="menuOption"> <span class="menu_text"> <img class="menuIcon" src="/images/signin.png" width='30' height='30'/>Log In </span></div>
-					<div class="menuOption"> <span class="menu_text"> <img class="menuIcon" src="/images/trending.png" width='30' height='30'/>Trending </span></div>
-					<div class="menuOption"> <span class="menu_text"> <a href ="/about"><img class="menuIcon" src="/images/about.png" width='30' height='30'/>About </span></div></a>
+					<!-- Sign Up Link-->
+					<div class="menuOption menu_first hvr-grow"> <span class="menu_text"><a href ="/signup"> <img class="menuIcon" src="/images/signup.png" width='30' height='30'/ >Sign Up </span></div></a>
+					<!-- Log In Link-->
+					<div class="menuOption hvr-grow"> <span class="menu_text"> <a href ="/login"><img class="menuIcon" ng-click="open()" src="/images/signin.png" width='30' height='30'/>Log In </span></div></a>
+					<!-- Trending Link-->
+					<div class="menuOption hvr-grow"> <span class="menu_text"> <a href ="/trending"><img class="menuIcon" src="/images/trending.png" width='30' height='30'/>Trending </span></div></a>
+					<!-- About Link--> 
+					<div class="menuOption hvr-grow"> <span class="menu_text"> <a href ="/about"><img class="menuIcon" src="/images/about.png" width='30' height='30'/>About </span></div></a>
 				</div>
 			</div>
 		</div>
-		{{> part}}
+		<div class"injection">{{> part}}</div>
 		
 	</div>
+	<footer class="footer"></footer>
+	</body>
+
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="/javascripts/sample.js"></script>
 	<script type="text/javascript" src="/javascripts/angular.js"></script>
@@ -39,5 +47,5 @@
 
 
 	
-</body>
+
 </html>
