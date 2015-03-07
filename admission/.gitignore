@@ -1,0 +1,16 @@
+node_modules/\nbower_components/
+node_modules/\nbower_components/
+node_modules/angular
+node_modules/body-parser
+node_modules/bower
+node_modules/cookie-parser
+node_modules/debug
+node_modules/express
+node_modules/gulp
+node_modules/hjs
+node_modules/less-middleware
+node_modules/lodash
+node_modules/morgan
+node_modules/nodemon
+node_modules/serve-favicon
+node_modules/ui-router
