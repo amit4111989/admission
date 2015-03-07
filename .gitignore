@@ -1,2 +1,10 @@
 *.DS_Store
+admission/node_modules/**
 
+node_modules/angular
+node_modules/bower
+node_modules/express
+node_modules/mongodb
+node_modules/passport
+node_modules/trash
+node_modules/ui-router
