@@ -4840,6 +4840,8 @@ button.close {
 }
 .modal {
     position: fixed;
+    width: 400px;
+    height: 300 px;
     top: 0;
     right: 0;
     bottom: 0;
@@ -4903,7 +4905,7 @@ button.close {
 }
 .modal-header {
     min-height: 16.43px;
-    padding: 15px;
+    padding: 10px;
     border-bottom: 1px solid #e5e5e5
 }
 .modal-header .close {
@@ -4915,7 +4917,7 @@ button.close {
 }
 .modal-body {
     position: relative;
-    padding: 15px
+    padding: 10px
 }
 .modal-footer {
     padding: 15px;
