@@ -10,16 +10,16 @@
 		<div id="headerWrapper">
 			<div id="signupWrapper">
 				<div id="signupBox">
-					<img src="/images/logo.png" width='350'>
+					<img src="/images/logo.png" width='250'>
 					<div class="arrow-left"></div> 
 				</div>
 			</div>
 			<div id="mainHeaderWrapper">
 				<div id="menuHeader">
-					<div class="menuOption menu_first"> <span class="menu_text"> Sign Up</span></div>
-					<div class="menuOption"> <span class="menu_text"> Log In</span></div>
-					<div class="menuOption"> <span class="menu_text"> How it Works</span></div>
-					<div class="menuOption"> <span class="menu_text"> About Us</span></div>
+					<div class="menuOption menu_first"> <span class="menu_text"> <img class="menuIcon" src="/images/signup.png" width='30' height='30'/>Sign Up </span></div>
+					<div class="menuOption"> <span class="menu_text"> <img class="menuIcon" src="/images/signin.png" width='30' height='30'/>Log In </span></div>
+					<div class="menuOption"> <span class="menu_text"> <img class="menuIcon" src="/images/trending.png" width='30' height='30'/>Trending </span></div>
+					<div class="menuOption"> <span class="menu_text"> <img class="menuIcon" src="/images/about.png" width='30' height='30'/> About </span></div>
 				</div>
 			</div>
 		</div>
