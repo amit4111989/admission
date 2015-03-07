@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AdMission - Advertising Matters</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/reset.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/sample.css">
+</head>
+<body>
+	<div id="mainWrapper">
+		<div id="headerWrapper">
+			<div id="signupWrapper">
+				<div id="signupBox">
+					<img src="/images/logo.png" width='350'>
+					<div class="arrow-left"></div> 
+				</div>
+			</div>
+			<div id="mainHeaderWrapper">
+				<div id="menuHeader">
+					<div class="menuOption menu_first"> <span class="menu_text"> Sign Up</span></div>
+					<div class="menuOption"> <span class="menu_text"> Log In</span></div>
+					<div class="menuOption"> <span class="menu_text"> How it Works</span></div>
+					<div class="menuOption"> <span class="menu_text"> About Us</span></div>
+				</div>
+			</div>
+		</div>
+		<div id="filler"></div>
+		<div id="contentWrapper">
+			<div id="feedWrapper">
+				<div class="feed"></div>
+				<div class="feed"></div>
+				<div class="feed"></div>
+				<div class="feed"></div>
+			</div>
+			<div id="sideWrapper"></div>
+		</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="/javascripts/sample.js"></script>
+</body>
+</html>
