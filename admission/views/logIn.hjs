@@ -7,7 +7,7 @@
 <!-- Text input-->
 <div class="modal-body">
 <div class="control-group">
-  <label class="control-label" for="textinput">Text Input</label>
+  <label class="control-label" for="textinput">Username/Email</label>
   <div class="controls">
     <input id="textinput" name="textinput" type="text" placeholder="placeholder" class="input-xlarge">
 
@@ -16,7 +16,7 @@
 
 <!-- Password input-->
 <div class="control-group">
-  <label class="control-label" for="passwordinput">Password Input</label>
+  <label class="control-label" for="passwordinput">Password</label>
   <div class="controls">
     <input id="passwordinput" name="passwordinput" type="password" placeholder="placeholder" class="input-xlarge">
 
