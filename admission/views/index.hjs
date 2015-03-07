@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="ng.admission">
+<html><!-- <html ng-app="ng.admission"> -->
 <head>
 	<title>AdMission - Advertising Matters</title>
 	<link rel="stylesheet" type="text/css" href="/stylesheets/reset.css">
@@ -23,11 +23,23 @@
 				</div>
 			</div>
 		</div>
-		<div ui-view></div>
+
+		{{{yield}}}
+
+		<div id="filler"></div>
+		<div id="contentWrapper">
+		    	<div id="feedWrapper">
+			        <div class="feed"></div>
+			        <div class="feed"></div>
+			        <div class="feed"></div>
+			        <div class="feed"></div>
+		    	</div>
+	        <div id="sideWrapper"></div>
+	    </div>
+		<!-- <div ui-view></div> -->
 		
 	</div>
 	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-	<script type="text/javascript" src="/javascripts/sample.js"></script>
 	<script type="text/javascript" src="/javascripts/angular.js"></script>
 	<script type="text/javascript" src="/javascripts/lodash.js"></script>
 	<script type="text/javascript" src="/javascripts/underscore.js"></script>
