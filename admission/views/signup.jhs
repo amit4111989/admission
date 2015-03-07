@@ -1,0 +1,18 @@
+
+<h1>Sign Up</h1> 
+<div class="form-group">
+      <label for="usr">Username/Email:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+<div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+<div>
+  <div class="form-group">
+      <label for="pwd">Confirm Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+<div>
+<button class = btn btn-primary> Submit  <span class="glyphicon glyphicon-chevron-right" style="vertical-align:middle">
+  </button>
