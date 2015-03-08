@@ -1,12 +1,73 @@
-<div class="col-sm-6">
-            <div class="well">
-                <h3><span class="fa fa-user"></span> Local</h3>
+<divclass="routerWrapper">
 
-                    <p>
-                        <strong>id</strong>: <%= user._id %><br>
-                        <strong>email</strong>: <%= user.local.email %><br>
-                        <strong>password</strong>: <%= user.local.password %>
-                    </p>
+    <div class="container profileBox">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad">
+
+
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <h3 class="panel-title left" data-ng-bind="userObj">Hello, {{userObj.user}}</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-md-3 col-lg-3 " align="center"> <i class="fa fa-user profile"></i> </div>
+
+                            <div class=" col-md-9 col-lg-9 ">
+                                <table class="table table-user-information">
+                                    <tbody>
+                                        <tr>
+                                            <td>Tokens:</td>
+                                            <td>{{userObj.tokens}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Member Since:</td>
+                                            <td>{{userObj.startDate}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ads Watched:</td>
+                                            <td>{{userObj.adCount}}</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>Top Comment:</td>
+                                            <td>{{userObj.topComment}}</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Email:</td>
+                                            <td>{{userObj.email}}</td>
+                                        </tr>
+
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+
+                                <a href="#" class="btn btn-success blu"><i class="fa fa-diamond"></i> Redeem Tokens!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
+            <ul class="widget widget-menu stuff">
+                <li><a href="#"><i class="menu-icon icon-bullhorn"></i>Change Password</a>
+                </li>
+                <li><a href="#"><i class="menu-icon icon-bullhorn"></i>Update Preferences </a>
+                </li>
+                <li><a href="#"><i class="menu-icon icon-inbox"></i>Share Feedback </a>
+                </li>
+                <li><a href="#"><i class="menu-icon icon-tasks"></i>Change Email </a>
+                </li>
+                <li><a href="#"><i class="menu-icon icon-tasks"></i>Invite Friend </a>
+                </li>
+                <li><a href="#"><i class="menu-icon icon-tasks"></i>Tacos </a>
+                </li>
+
+
+            </ul>
         </div>
+    </div>
+</div>

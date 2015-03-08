@@ -1,0 +1,152 @@
+
+<div class="routerWrapper">
+
+
+<div class="surveyRow">
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Sports
+  </label>
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red emerald">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Luxury
+  </label>
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red river">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Technology
+  </label>
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red ame">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Clothing
+  </label>
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red wet">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Music
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red sea">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Furniture
+</div>
+</div>
+
+
+<div class="surveyRow">
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red neph">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Automotive
+  </label>
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red hole">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Television
+  </label>
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red wist">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Funny
+  </label>
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red mid">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Movie
+  </label>
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red sunflower">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Video Games
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red car">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Local
+</div>
+</div>
+
+
+<div class="surveyRow">
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red ali">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Financial
+  </label>
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red cloud">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Personal Care
+  </label>
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red con">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Adult
+  </label>
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red oran">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Food
+  </label>
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red pump">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Restaurants
+</div>
+</div>
+<div class="col-md-2 pewpew">
+<div class="form-group" data-toggle="buttons">
+  <label class="btn btn-default btn-sm toggle-checkbox red pomp">
+    <i class="fa fa-fw"></i>
+    <input type="checkbox" id="activeOnly" autocomplete="off">Insurance
+</div>
+</div>
+
+</div>
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><!-- <html ng-app="ng.admission"> -->
+<html ng-app="ng.admission">
 <head>
 	<title>AdMission - Advertising Matters</title>
 	<link rel="stylesheet" type="text/css" href="/stylesheets/reset.css">
@@ -7,7 +7,10 @@
 	<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
 	<link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="/stylesheets/hover.css">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/awesome-bootstrap-checkbox.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	
 </head>
 <body>
 	<div id="mainWrapper">
@@ -21,13 +24,13 @@
 			<div id="mainHeaderWrapper">
 				<div id="menuHeader">
 					<!-- Sign Up Link-->
-					<div class="menuOption menu_first hvr-grow"> <span class="menu_text"><a href ="/signup"> <img class="menuIcon" src="/images/signup.png" width='30' height='30'/ >Sign Up </span></div></a>
+					<div class="menuOption menu_first hvr-grow"> <span class="menu_text"><a href ="/signup"> <i class="fa fa-sign-in"></i> Sign Up </span></div></a>
 					<!-- Log In Link-->
-					<div class="menuOption hvr-grow"> <span class="menu_text"> <a href ="/login"><img class="menuIcon" ng-click="open()" src="/images/signin.png" width='30' height='30'/>Log In </span></div></a>
+					<div class="menuOption hvr-grow"> <span class="menu_text"> <a href ="/login"><i class="fa fa-user"></i> Log In </span></div></a>
 					<!-- Trending Link-->
-					<div class="menuOption hvr-grow"> <span class="menu_text"> <a href ="/trending"><i class="fa fa-star"></i>Trending </span></div></a>
+					<div class="menuOption hvr-grow"> <span class="menu_text"> <a href ="/trending"><i class="fa fa-star"></i> Trending </span></div></a>
 					<!-- About Link--> 
-					<div class="menuOption hvr-grow"> <span class="menu_text"> <a href ="/about"><img class="menuIcon" src="/images/about.png" width='30' height='30'/>About </span></div></a>
+					<div class="menuOption hvr-grow"> <span class="menu_text"> <a href ="/about"><i class="fa fa-cog"></i> About </span></div></a>
 				</div>
 			</div>
 		</div>
@@ -48,7 +51,7 @@
 	<script type="text/javascript" src="/javascripts/lodash.js"></script>
 	<script type="text/javascript" src="/javascripts/underscore.js"></script>
 	<script type="text/javascript" src="/angular/modules.js"></script>
-	<script type="text/javascript" src="/javascripts/ui-bootstrap.js"></script>
+	<script type="text/javascript" src="/javascripts/bootstrap.js"></script>
 
 
 	
